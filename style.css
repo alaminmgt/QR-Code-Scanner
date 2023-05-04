@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #6C88AE;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.innerdiv {
+    width: 35vw;
+    height: 30rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, .4);
+}
+video{
+    overflow: hidden;
+}
+#text{
+    padding: .3rem;
+    font-size: 1rem;
+}
+#myCamera{
+    width: 350px;
+    height: 350px;
+    margin-left: -15px;
+}
+@media screen and (max-width: 1064px) {
+    .innerdiv {
+        width: 60vw;
+  }
+}
+@media screen and (max-width: 992px) {
+    .innerdiv {
+        width: 60vw;
+  }
+}
+  @media screen and (max-width: 768px) {
+    .innerdiv {
+        width: 60vw;
+   }
+   #myCamera {
+    width: 350px;
+    height: 350px;
+    margin-left: -53px;
+   }
+}
+@media screen and (max-width: 576px) {
+    .innerdiv {
+        width: 65vw;
+    }
+    video{
+      min-width: 220px;
+  }
+  #text{
+    margin-left: -16px;
+  }
+  #myCamera{
+    width: 300px;
+    height: 300px;
+    margin-left: -58px;
+  }
+}
+@media screen and (max-width: 500px) {
+    .innerdiv {
+        width: 65vw;
+    }
+    #myCamera {
+      width: 240px;
+      height: 300px;
+      margin-left: -60px;
+  }
+  #text{
+    padding: 5px;
+    font-size: 1rem;
+    margin-left: -40px;
+}
+}
+
+@media screen and (max-width: 400px) {
+    #text{
+        padding: 5px;
+        font-size: 1rem;
+        margin-left: -60px;
+    }
+  #myCamera{
+    width: 200px;
+    height: 250px;
+    margin-left: -60px;
+  }
+}
